@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         . "X-Mailer: PHP/" . phpversion();
 
     
-    $to = "mamtathind195@gmail.com";
+    $to = "johncarltonsmith@yahoo.co.uk";
     $subject = "New Contact Form Submission";
 
     // Send the email
