@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         . "X-Mailer: PHP/" . phpversion();
 
     
-    $to = "johncarltonsmith@yahoo.co.uk";
+    $to = "youremail@example.com"; //replace this email with the email you want the form to go to
     $subject = "New Contact Form Submission";
 
     // Send the email
