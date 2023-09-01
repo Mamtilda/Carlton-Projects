@@ -2,6 +2,8 @@
 
 Welcome to the Carlton Projects website repository! This repository contains the source code for the website developed for the Carlton Projects company, showcasing their joinery services and projects.
 
+**NOTE: This website was developed as part of my college assignment for my undergrad degree (BSc Computer Networking, 2015-2019)**
+
 ## Table of Contents
 
 - [Introduction](#introduction)
