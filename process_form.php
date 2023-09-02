@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telephonenumber = $_POST["telephonenumber"];
     $address = $_POST["address"];
     $postcode = $_POST["postcode"];
-    $subject = $_POST["subject"];
+    $enquiry = $_POST["enquiry"];
 
     // Create the email message
     $message = "First Name: $firstname\n"
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         . "Telephone Number: $telephonenumber\n"
         . "Address: $address\n"
         . "Postcode: $postcode\n"
-        . "Subject: $subject\n";
+        . "Enquiry: $enquiry\n";
 
     // Set up email headers
     $headers = "From: $email\r\n"
@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         . "X-Mailer: PHP/" . phpversion();
 
     
-    $to = "youremail@example.com"; //replace this email with the email you want the form to go to
+    $to = "mamtathind195@gmail.com"; //replace this email with the email you want the form to go to
     $subject = "New Contact Form Submission";
 
     // Send the email
